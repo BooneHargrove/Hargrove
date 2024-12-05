@@ -1,0 +1,345 @@
+body {
+    background-image: url(../img/mortybackground.png);
+    background-attachment: fixed;
+}
+
+.wrapper {
+    font-family: "barlow condensed";
+    font-size: 26px;
+    color: #EDECE9;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 50px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 10px;
+    align-items: center;
+    gap: 60px;
+    background: #E18645;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav h1 {
+    color:#110B0B ;
+    font-family: Arbutus;
+    font-size: 45px;
+}
+
+.nav a {
+    color: #EDECE9;
+    font-family: "Barlow Condensed";
+    font-size: 38px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #110B0B;
+}
+
+/*index page style*/
+
+.hero {
+    Height: 550px;
+}
+
+.album {
+    color: #EDECE9;
+    height: 624px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    column-gap: 50px;
+}
+
+.album h2 {
+    color: #E18645;
+    font-family: Arbutus;
+    font-size: 45px;
+}
+
+.album li {
+    color: #EDECE9;
+    text-align: center;
+    font-family: Arbutus;
+    font-size: 60px;
+    list-style-type: none;
+}
+
+.bio {
+    display: flex;
+    background-color: #110B0B;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 200;
+    top: 50px;
+    
+}
+
+/*store page style*/
+
+h2 {
+    color: #110B0B;
+    font-family: arbutus;
+    font-size: 28px;
+}
+
+.store {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 40px;
+    margin: auto;
+}
+
+.store p {
+    color: #110B0B;
+}
+
+.card {
+    background-color: #EDECE9;
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    height: 700px;
+    border-radius: 15px;
+}
+  
+.price {
+    color: #110B0B;
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+/*tour style*/
+
+.tourhero{
+    background-image: url(../img/slidehands.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.herotext{
+    position:absolute;
+    margin-top: 5%;
+    margin-left: 25%;
+    transform: translate(-50% -50%);
+}
+
+.herotext h1{
+    font-family: arbutus;
+    color: #F0EBD7;
+}
+
+.tour{
+    display: flex;
+    background: #110B0B;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: baseline;
+    gap: 60px;
+    border-top: 5px solid #F0EBD7;
+}
+
+table{
+    width: 45%;
+    margin: 20px 10px 20px 10px;
+}
+
+/*Fanclub style*/
+
+.photobox{
+    margin: 30px 20px 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    background-color: #F0EBD7;
+    border-radius: 10px;
+    color: #110B0B;
+    justify-content: center;
+    padding: 10px;
+}
+.div1 h1{
+    font-family: arbutus;
+    text-align: center;
+}
+    
+.div2 {
+    grid-row-start: 2;
+    background-image: url(../img/ally.png);
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+    
+.div3 {
+    grid-row-start: 2;
+    background-image: url(../img/andymorty.png);
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+    
+.div4 {
+    grid-row-start: 2;
+    background-image: url(../img/mortyplays.png);
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+    
+.div5 {
+    grid-row-start: 2;
+    background-image: url(../img/ridgeriders.png);
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+    
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background-color: #F0EBD7;
+    border-radius: 10px;
+    color: #110B0B;
+    justify-content: center;
+    padding: 10px;
+}
+
+.div6 h1 {
+    font-family: Arbutus;
+    text-align: center;
+}
+
+.div6 h2 {
+    text-align: center;
+}
+    
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: #F0EBD7;
+    border-radius: 10px;
+    color: #110B0B;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+
+.div7 form{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div7 input{
+    width: 80%;
+    padding: 15px;
+    margin: 20px 0;
+    border:5px solid #110B0B;
+    border-radius: 10px;
+
+}
+
+.div7 label{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+/*footer style*/
+
+footer{
+    background: #E18645;
+    border-top: 5px solid #F0EBD7;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 23px 80px;
+    flex-wrap: wrap;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    color: #EDECE9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #110B0B;
+}
+
+.form {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    border: 6px solid #F0EBD7;
+    background: #E18645;
+    margin: 20px ;
+    align-content: center;
+    justify-content: center;
+}
+    
+
+
+   
